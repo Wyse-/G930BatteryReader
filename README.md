@@ -62,6 +62,12 @@ Why was this done?
 Why didn't you code it for the newer Logitech Gaming Software instead of the outdated Logitech G930 software?
 >Because I personally find the LGS quite bloated, also it had an issue which caused the headset to restart every ~15 minutes, so I use the older version.
 
+Are the program and Rainmeter skin resource intensive?
+>Nope. G930BatteryReader.exe uses about 300 Kb of RAM, as for the skin I'm not really sure how to tell how much it uses specifically, but I'm sure it's a negligible amount.
+
+Why didn't you code it in x programming language?
+>I'm a beginner, I've only ever used C so that's what I used.
+
 ##Screenshots
 
 ![alt tag](https://aww.moe/0uh8m9.png)
