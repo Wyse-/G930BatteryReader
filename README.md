@@ -7,5 +7,7 @@ It has only been tested on Windows 7 x64 using version 1.00.364 of the Logitech 
 
 This will NOT work with the newer "Logitech Gaming Software".
 
+You are free to use this program and its code however you want.
+
 # Downloads
 Logitech G930 v1.00.364: http://download01.logitech.com/web/ftp/pub/gaming/g930/g930_100364b_x64.exe
