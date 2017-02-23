@@ -6,10 +6,10 @@
 3. Download Quiet.exe, link below.
 4. Place Quiet.exe in the same directory as G930BatteryReader.exe.
 5. Create a new txt file, and paste the following in it:
-
->timeout /t 60 /nobreak
->Quiet.exe "G930BatteryReader.exe"
-
+```
+timeout /t 60 /nobreak
+Quiet.exe "G930BatteryReader.exe"
+```
 6. Optionally adjust the timeout value (it's in seconds) based on your computer / hard drive speed. The point is that G930BatteryReader.exe has to start after the Logitech G930 software is already started, otherwise it will just close.
 7. Rename the text file extension from .txt to .bat.
 8. Add the bat file as an autostart program via the task scheduler or the registry (if you don't know how to just google it)
