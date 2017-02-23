@@ -1,5 +1,5 @@
 # G930BatteryReader
-## Rainmeter how to / TL;DR
+## How-to
 1. Download the G930BatteryReader.exe file (click on bin/Debug).
 2. Place the exe wherever you want.
 3. Download Quiet.exe, link below.
@@ -27,7 +27,7 @@ Credits for the original Rainmeter skin go to **eight-wonder** and **shailendra*
 
 Quiet: http://www.joeware.net/downloads/dl.php
 
-## Description / Long version
+## Description
 This is a simple program written in C and compiled using Code::Blocks 16.01 and GCC. 
 
 Its purpose is reading the battery value from the Logitech G930 software and writing the battey value to a txt file.
