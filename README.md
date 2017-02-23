@@ -1,26 +1,22 @@
 # G930BatteryReader
-This is a simple program written in C and compiled using Code::Blocks 16.01 and GCC. 
-
-Its purpose is reading the battery value from the Logitech G930 software and writing the battey value to a txt file.
-
-It was coded to support a modified Rainmeter battery skin, download link below. To make the rainmeter skin work you will have to edit the line
-```
-Url=file://C:\UOW\batteryLevel.txt
-```
-And change it to the path of your batteryLevel.txt file.
-
-It has only been tested on Windows 7 x64 using version 1.00.364 of the Logitech G930 x64 software: the download link is included below.
-
-This will NOT work with the newer "Logitech Gaming Software".
-
-I personally have it scheduled to start at logon on the windows task scheduler through "Quiet" (to make it invisible, see download link below). To use this program with Quiet you can use this batch script (simply copy its code in a txt file in the same directory as the exe and rename the extension from txt to bat:
+## Rainmeter how to / TL;DR
+1. Download the G930BatteryReader.exe file (click on bin/Debug).
+2. Place the exe wherever you want.
+3. Download Quiet.exe, link below.
+4. Place Quiet.exe in the same directory as G930BatteryReader.exe.
+5. Create a new txt file, and paste the following in it:
 ```
 timeout /t 60 /nobreak
 Quiet.exe "G930BatteryReader.exe"
 ```
-The batch script above delays its start by 60 seconds because if the exe starts before the the Logitech G930 software it will automatically close itself.
-
-You are free to use this program and its code however you want.
+6. Optionally adjust the timeout value (it's in seconds) based on your computer / hard drive speed. The point is that G930BatteryReader.exe has to start after the Logitech G930 software is already started, otherwise it will just close.
+7. Rename the text file extension from .txt to .bat.
+8. Add the bat file as an autostart program via the task scheduler or the registry (if you don't know how to just google it)
+9. Download the Rainmeter skin, link below.
+10. Extract the folder in the zip to "C:\Users\YourUsername\Documents\Rainmeter\Skins"
+11. Open battery.ini with notepad and look for the line "Url=file://C:\UOW\batteryLevel.txt", then change the file path to the path where you extracted G930BatteryReader.exe. The batteryLevel.txt file will always be created by the program in its same directory.
+12. Load the skin through Rainmeter.
+13. Done!
 
 ## Downloads
 Logitech G930 v1.00.364: http://download01.logitech.com/web/ftp/pub/gaming/g930/g930_100364b_x64.exe
@@ -31,6 +27,29 @@ Credits for the original Rainmeter skin go to **eight-wonder** and **shailendra*
 
 Quiet: http://www.joeware.net/downloads/dl.php
 
+## Description / Long version
+This is a simple program written in C and compiled using Code::Blocks 16.01 and GCC. 
+
+Its purpose is reading the battery value from the Logitech G930 software and writing the battey value to a txt file.
+
+It was coded to support a modified Rainmeter battery skin, download link above. To make the rainmeter skin work you will have to edit the line
+```
+Url=file://C:\UOW\batteryLevel.txt
+```
+And change it to the path of your batteryLevel.txt file.
+
+It has only been tested on Windows 7 x64 using version 1.00.364 of the Logitech G930 x64 software: the download link is included above.
+
+This will NOT work with the newer "Logitech Gaming Software".
+
+I personally have it scheduled to start at logon on the windows task scheduler through "Quiet" (to make it invisible, see download link above). To use this program with Quiet you can use this batch script (simply copy its code in a txt file in the same directory as the exe and rename the extension from txt to bat:
+```
+timeout /t 60 /nobreak
+Quiet.exe "G930BatteryReader.exe"
+```
+The batch script above delays its start by 60 seconds because if the exe starts before the the Logitech G930 software it will automatically close itself.
+
+You are free to use this program and its code however you want.
 
 ## FAQ
 How was this done?
