@@ -1,6 +1,12 @@
 # G930BatteryReader
+
+##Screenshot
+
+![alt tag](https://aww.moe/0uh8m9.png)
+Note: the command line window is only used for demonstration / debugging purposes, following the how-to steps it will effectively be invisible thanks to a program called Quiet.
+
 ## How-to
-- Make sure you have the Logitech G930 v1.00.364 x64 software installed and set to autostart. If you don't, download link below.
+- Make sure you have the Logitech G930 v1.00.364 x64 software installed and set to autostart. If you don't, download link below. Keep in mind this is different from the Logitech Gaming Software: if you have that installed uninstall it and install the one I provided below.
 - Download the G930BatteryReader.exe file (click on bin/Debug).
 - Place the exe wherever you want.
 - Download Quiet.exe, link below.
@@ -63,11 +69,7 @@ Why didn't you code it for the newer Logitech Gaming Software instead of the out
 >Because I personally find the LGS quite bloated, also it had an issue which caused the headset to restart every ~15 minutes, so I use the older version.
 
 Are the program and Rainmeter skin resource intensive?
->Nope. G930BatteryReader.exe uses about 300 Kb of RAM, as for the skin I'm not really sure how to tell how much it uses specifically, but I'm sure it's a negligible amount.
+>Nope. G930BatteryReader.exe uses about 300 Kb of RAM and no CPU usage that I can speak of, as for the skin I'm not really sure how to tell how much it uses specifically, but I'm sure it's a negligible amount.
 
 Why didn't you code it in x programming language?
 >I'm a beginner, I've only ever used C so that's what I used.
-
-##Screenshots
-
-![alt tag](https://aww.moe/0uh8m9.png)
