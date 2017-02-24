@@ -32,7 +32,7 @@ Rainmeter skin: https://aww.moe/hxsobb.zip
 
 Credits for the original Rainmeter skin go to **eight-wonder** and **shailendra** on Deviantart.
 
-Quiet: http://www.joeware.net/downloads/dl.php
+Quiet: http://www.joeware.net/freetools/tools/quiet/index.htm
 
 ## Description
 This is a simple program written in C and compiled using Code::Blocks 16.01 and GCC. 
