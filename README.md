@@ -73,3 +73,6 @@ Are the program and Rainmeter skin resource intensive?
 
 Why didn't you code it in x programming language?
 >I'm a beginner, I've only ever used C so that's what I used.
+
+How is the battery value stored in memory by the Logitech G930 software?
+>It's stored in minutes remamining. For example, when the battery is full and it says "10 hours remaining", the battery value will be 601 (601 / 60 = 10.01). If you are looking for an exact value the best thing to do is wait for the battery to be low enough that the time remaining is displayed in minutes (e.g. 14 minutes remaining would be stored in memory as exactly 14).
