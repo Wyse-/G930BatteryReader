@@ -1,6 +1,6 @@
 # G930BatteryReader
 
-##Screenshot
+## Screenshot
 
 ![alt tag](https://aww.moe/0uh8m9.png)
 Note: the command line window is only used for demonstration / debugging purposes, following the how-to steps it will effectively be invisible thanks to a program called Quiet.
@@ -66,7 +66,8 @@ Why was this done?
 >Because I wanted a rainmeter skin which displayed my G930 headset battery, so I created one.
 
 Why didn't you code it for the newer Logitech Gaming Software instead of the outdated Logitech G930 software?
->Because I personally find the LGS quite bloated, also it had an issue which caused the headset to restart every ~15 minutes, so I use the older version.
+>Because I personally find the LGS quite bloated, also it had an issue which caused the headset to restart every ~15 minutes, so I use the older version. If you are looking for something compatible with the LGS check out Snipeon's LGSBatteryReader:
+https://github.com/Snipeon/LGSbatt-rainmeter
 
 Are the program and Rainmeter skin resource intensive?
 >Nope. G930BatteryReader.exe uses about 300 Kb of RAM and no CPU usage that I can speak of, as for the skin I'm not really sure how to tell how much it uses specifically, but I'm sure it's a negligible amount.
@@ -75,4 +76,4 @@ Why didn't you code it in x programming language?
 >I'm a beginner, I've only ever used C so that's what I used.
 
 How is the battery value stored in memory by the Logitech G930 software?
->It's stored in minutes remamining. For example, when the battery is full and it says "10 hours remaining", the battery value will be 601 (601 / 60 = 10.01). If you are looking for an exact value the best thing to do is wait for the battery to be low enough that the time remaining is displayed in minutes (e.g. 14 minutes remaining would be stored in memory as exactly 14).
+>It's stored in minutes remaining. For example, when the battery is full and it says "10 hours remaining", the battery value will be 601 (601 / 60 = 10.01). If you are looking for an exact value the best thing to do is wait for the battery to be low enough that the time remaining is displayed in minutes (e.g. 14 minutes remaining would be stored in memory as exactly 14).
