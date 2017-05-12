@@ -5,6 +5,9 @@
 ![alt tag](https://aww.moe/0uh8m9.png)
 Note: the command line window is only used for demonstration / debugging purposes, following the how-to steps it will effectively be invisible thanks to a program called Quiet.
 
+Alternative skin:
+![alt tag](https://a.doko.moe/odtsxc.PNG)
+
 ## How-to
 - Make sure you have the Logitech G930 v1.00.364 x64 software installed and set to autostart. If you don't, download link below. Keep in mind this is different from the Logitech Gaming Software: if you have that installed uninstall it and install the one I provided below.
 - Download the G930BatteryReader.exe file (click on bin/Debug).
@@ -29,6 +32,8 @@ Quiet.exe "G930BatteryReader.exe"
 Logitech G930 v1.00.364: http://download01.logitech.com/web/ftp/pub/gaming/g930/g930_100364b_x64.exe
 
 Rainmeter skin: https://aww.moe/hxsobb.zip
+
+Alternative skin: https://a.doko.moe/sjswbj.zip
 
 Credits for the original Rainmeter skin go to **eight-wonder** and **shailendra** on Deviantart.
 
