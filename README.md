@@ -37,7 +37,7 @@ Quiet: http://www.joeware.net/freetools/tools/quiet/index.htm
 ## Description
 This is a simple program written in C and compiled using Code::Blocks 16.01 and GCC. 
 
-Its purpose is reading the battery value from the Logitech G930 software and writing the battey value to a txt file.
+Its purpose is reading the battery value from the Logitech G930 software and writing the battey value to a txt file. It updates the value every 5 seconds.
 
 It was coded to support a modified Rainmeter battery skin, download link above. To make the rainmeter skin work you will have to edit the line
 ```
