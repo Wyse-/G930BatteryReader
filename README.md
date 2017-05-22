@@ -7,7 +7,7 @@ Note: the command line window is only used for demonstration / debugging purpose
 
 Alternative skin:
 ![alt tag](https://a.doko.moe/odtsxc.PNG)
-
+If you are looking for something that doesn't rely on Rainmeter see https://github.com/Wyse-/G930BatteryReader-CLIBar
 ## How-to
 - Make sure you have the Logitech G930 v1.00.364 x64 software installed and set to autostart. If you don't, download link below. Keep in mind this is different from the Logitech Gaming Software: if you have that installed uninstall it and install the one I provided below.
 - Download the latest executable from the releases page (https://github.com/Wyse-/G930BatteryReader/releases)
