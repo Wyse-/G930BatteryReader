@@ -19,9 +19,9 @@ int main(){
         printf("OpenProcess Error.");
         exit(1);
     }
+    ReadProcessMemory(phandle,(void*)address,&value,sizeof(value),0); // Reads the pointer stored in the base address and stores it to value
+    address = value + OFFSET; // Adds the offset to the pointer stored in the base address
     while(1){ // Endless loop
-        ReadProcessMemory(phandle,(void*)address,&value,sizeof(value),0); // Reads the pointer stored in the base address and stores it to
-        address = value + OFFSET; // Adds the offset to the pointer stored in the base address
         ReadProcessMemory(phandle,(void*)address,&value,sizeof(value),0); // Reads the battery value from the pointer
         printf("G930 Battery Level = %d\n", value); // Prints the battery value
         FILE *f = fopen("batteryLevel.txt", "w"); // Opens file "batteryLevel.txt" for writing
