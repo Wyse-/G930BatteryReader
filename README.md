@@ -1,6 +1,6 @@
 # G930BatteryReader
 
-## Screenshot
+## Screenshots
 
 ![alt tag](https://aww.moe/0uh8m9.png)
 Note: the command line window is only used for demonstration / debugging purposes, following the how-to steps it will effectively be invisible thanks to a program called Quiet.
