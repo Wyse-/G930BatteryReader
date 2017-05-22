@@ -10,7 +10,7 @@ Alternative skin:
 
 ## How-to
 - Make sure you have the Logitech G930 v1.00.364 x64 software installed and set to autostart. If you don't, download link below. Keep in mind this is different from the Logitech Gaming Software: if you have that installed uninstall it and install the one I provided below.
-- Download the G930BatteryReader.exe file (click on bin/Debug).
+- Download the latest executable from the releases page (https://github.com/Wyse-/G930BatteryReader/releases)
 - Place the exe wherever you want.
 - Download Quiet.exe, link below.
 - Place Quiet.exe in the same directory as G930BatteryReader.exe.
