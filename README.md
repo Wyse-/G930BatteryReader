@@ -2,11 +2,11 @@
 
 ## Screenshots
 
-![alt tag](https://aww.moe/0uh8m9.png)
+![rainmeter original skin screenshot](https://user-images.githubusercontent.com/5454041/56526043-183bc180-654c-11e9-90fa-f3fa9fd1296e.png)
 Note: the command line window is only used for demonstration / debugging purposes, following the how-to steps it will effectively be invisible thanks to a program called Quiet.
 
 Alternative skin:
-![alt tag](https://a.doko.moe/odtsxc.PNG)
+![rainmeter alternative skin screenshot](https://user-images.githubusercontent.com/5454041/56525526-643a3680-654b-11e9-8cbd-20b39a092b2d.PNG)
 If you are looking for something that doesn't rely on Rainmeter see https://github.com/Wyse-/G930BatteryReader-CLIBar
 ## How-to
 - Make sure you have the Logitech G930 v1.00.364 x64 software installed and set to autostart. If you don't, download link below. Keep in mind this is different from the Logitech Gaming Software: if you have that installed uninstall it and install the one I provided below.
@@ -31,9 +31,9 @@ Quiet.exe "G930BatteryReader.exe"
 ## Downloads
 Logitech G930 v1.00.364: http://download01.logitech.com/web/ftp/pub/gaming/g930/g930_100364b_x64.exe
 
-Rainmeter skin: https://aww.moe/hxsobb.zip
+Rainmeter skin: https://github.com/Wyse-/G930BatteryReader/files/3104736/G930Batteryv2.zip
 
-Alternative skin: https://a.doko.moe/sjswbj.zip
+Alternative skin: https://github.com/Wyse-/G930BatteryReader/files/3104726/BatteryBar.zip
 
 Credits for the original Rainmeter skin go to **eight-wonder** and **shailendra** on Deviantart.
 
